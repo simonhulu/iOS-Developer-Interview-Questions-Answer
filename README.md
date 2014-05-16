@@ -9,7 +9,7 @@ iOS-Developer-Interview-Questions-Answer
 - [Objective-C中的weak和strong的区别](#weak_strong)
 - [Objective-C中的Blocks](#blocks)
 - [ARC](#ARC)
-- 
+- ......
 
 
 #### <a name="weak_strong">Objective-C中的weak和strong的区别</a>
