@@ -3,7 +3,11 @@ ARC
 
 自动引用计数(ARC, Automatic Reference Counting)，用于内存管理
 
-## 内存管理的思考方式
+*这篇内容，暂时看作读书笔记*
+
+##内存管理
+
+### 内存管理的思考方式
 用一种不考虑引用计数的话来讲，内存管理可以看成这样：
 
 1. 自己生成的对象，自己持有
@@ -20,9 +24,19 @@ ARC
 | 释放对象 | ```release``` |
 | 废弃对象 | ```dealloc``` |
 
+*这些方法不属于Objective-C语言本身，属于OS X和iOS开发中的Cocoa框架*
+
+## ARC的规则
+
+(待补充......)
+
+## ARC的实现
+
 ARC是“由编译器进行内存管理”，但只有编译器还不够，需要Objective-C运行时库的协助，所以ARC的实现需要：
 
 - clang
 - Objective-C运行时库
 
 简单理解，ARC和垃圾回收不一样，ARC有效时，你不能使用```retain``` \ ```release``` \ ```retainCount``` \ ```autorelease```，但是实际上ARC在编译器自动加上这些语句
+
+(待补充......)
