@@ -35,14 +35,7 @@ iOS-Developer-Interview-Questions-Answer
 
 ### <a name="ARC">ARC</a>
 
-ARC是“由编译器进行内存管理”，但只有编译器还不够，需要Objective-C运行时库的协助，所以ARC的实现需要：
-
-- clang
-- Objective-C运行时库
-
-简单理解，ARC和垃圾回收不一样，ARC有效时，你不能使用```retain``` \ ```release``` \ ```retainCount``` \ ```autorelease```，但是实际上ARC在编译器自动加上这些语句
-
-(待补充...)
+(详见detail/ARC.md...)
 
 
 ## TODO
@@ -52,3 +45,4 @@ ARC是“由编译器进行内存管理”，但只有编译器还不够，需�
 ## 参考资料
 
 - 《Objective-C高级编程》；坂本一树 (Kazuki Sakamoto)、古本智彦 (Tomohiko Furumoto) 著；黎华 译；人民邮电出版社
+
