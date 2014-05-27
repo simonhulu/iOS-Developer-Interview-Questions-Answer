@@ -18,7 +18,7 @@ iOS-Developer-Interview-Questions-Answer
 - [__weak修饰符和__strong修饰符](#weak_strong)
 - [Objective-C中的Blocks](#blocks)
 - [引用计数](#reference_count)
-- [ARC](#ARC)
+- [ARC](https://github.com/h1994st/iOS-Developer-Interview-Questions-Answer/blob/master/detail/ARC.md)
 - ......
 
 ### <a name="weak_strong">__weak修饰符和__strong修饰符</a>
@@ -32,11 +32,6 @@ iOS-Developer-Interview-Questions-Answer
 ### <a name="reference_count">引用计数</a>
 
 (待补充...)
-
-### <a name="ARC">ARC</a>
-
-(详见detail/ARC.md...)
-
 
 ## TODO
 
